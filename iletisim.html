@@ -11,6 +11,19 @@
 
     <title>Web Teknolojileri Proje Ödevi</title>
     <script type ="text/javascript" defer src="iletisim.js"></script>
+    <script>
+      function passvalues(){
+
+        var ad= document.getElementById('ad').value;
+        localStorage.setItem("textvalue",ad);
+        var soyad= document.getElementById('soyad').value;
+        localStorage.setItem("textvalue2",soyad);
+        var sinif =  document.getElementById('sinif').value;
+        localStorage.setItem("value2",sinif);
+        return false;
+
+      }
+    </script>
   </head>
   <body>
     
@@ -31,7 +44,7 @@
       </ul>
       <div class="arkaplan"> 
      
-        <form id="form"     >
+        <form id="form"  action="iletisim2.html">
         <div class="row g-3">
           <div class="col">
             <input type="text" id="ad" name="ad" class="form-control" placeholder="Adı" aria-label="First name">
@@ -48,7 +61,7 @@
           </select>
           <div class="form-check" align="center">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"> 
-            <label class="form-check-label" for="flexRadioDefault1">
+            <label class="form-check-label" for="flexRadioDefault1" >
              Erkek
             </label>
           </div>
@@ -62,7 +75,7 @@
             <input type="text" id="email" class="form-control" id="floatingInput" placeholder="name@example.com">
             <label for="floatingInput">Email adresi</label>
           </div>
-          <input class="btn btn-primary" type="submit" id="submit" name="submit" value="GÖNDER">
+          <input class="btn btn-primary" type="submit" id="submit" name="submit" value="GÖNDER" onclick="passvalues();">
           <input class="btn btn-primary" type="reset" value="SIFIRLA">
         </form>
         <div id="error"></div>
