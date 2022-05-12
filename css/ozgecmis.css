@@ -1,0 +1,137 @@
+
+ .arkaplan{
+    background-color:rgb(190, 189, 189);
+  }
+  
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #d30909;
+    display: flex;
+}
+
+li {
+    float: left;
+    display: flex;
+}
+
+li a {
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+    display: flex;
+}
+
+li a:hover:not(.active) {
+
+    background-color: #111;
+    display: flex;
+}
+
+.active {
+
+    background-color: #f39c12;
+    display: flex;
+}
+.aktif {
+    background-color: #c93e3e;
+    display: flex;
+    }  
+
+    .başlık{
+        color:#c93e3e;
+        margin-left: 38%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+        font-weight: bolder ;
+        display: flex;
+    }
+.okul1{
+        color:#000000;
+        margin-top: 70px;
+        margin-left: 80px;
+        margin-bottom: 100px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        font-weight: bolder;
+        
+        
+}
+.okul2{
+        color:#000000;
+        margin-top: 70px;
+        margin-left: 80px;
+        margin-bottom: 80px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        font-weight: bolder;
+        
+}
+.okul3{
+       color:#000000;
+        margin-top: 70px;
+        margin-left: 80px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: large;
+        font-weight: bolder;
+        
+}
+ .okullar {
+     
+    display: block;
+    padding:12px 16px;
+    color:rgb(255, 255, 255);
+    text-decoration:none; 
+    display: flex;
+  
+    
+}
+img,figure{
+    border-radius: 9%;
+    display: flex;
+}
+.okul3div{
+
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 1%;
+    
+    
+    
+}
+.okul2div{
+
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 1%;
+    
+}
+.okul1div{
+
+    background-color: rgb(32, 32, 32);
+    padding-bottom: 1%;
+    
+    
+
+    
+}
+.başlıkarkaplan{
+    background-color: rgb(160, 159, 159);
+    display: flex;
+}
+
+.logincss{
+    margin-left: 600px;
+    background-color: #125688;
+    border-radius: 20%;
+}

@@ -1,0 +1,256 @@
+
+ .arkaplan{
+    background-color:rgb(190, 189, 189);
+  }
+  
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #d30909;
+    display: flex;
+}
+
+li {
+    float: left;
+    display: flex;
+}
+
+li a {
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+    display: flex;
+}
+
+li a:hover:not(.active) {
+
+    background-color: #111;
+    display: flex;
+}
+
+.active {
+
+    background-color: #f39c12;
+    display: flex;
+}
+.aktif {
+    background-color: #c93e3e;
+    display: flex;
+    }  
+    .başlık{
+        color:#c93e3e;
+        margin-left: 45%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+        font-weight: bolder ;
+        display: flex;
+        
+        
+    }
+    .sehirfoto1,img{
+        margin-top: 30px;
+        margin-left: 330px;
+        padding-bottom: 1%;
+        display: flex;
+    }
+    .sehirbilgi{
+
+        width: 39%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: -290px;
+        margin-left: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 7%;
+        padding:53px 20px;
+        display: flex;
+
+    }
+    .sehirbilgilendirme{
+
+        width: 39%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px;
+        margin-left: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding:25px 20px;
+        display: flex;
+        
+
+    }
+    .başlık2{
+        color:#c93e3e;
+        margin-left: 40%;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: x-large;
+        font-weight: bolder ;
+        font-style: oblique;
+        margin-top: 41px;
+        display: flex;
+    }
+    .başlıkarkaplan{
+        background-color: rgb(160, 159, 159);
+
+    }
+    .mekancesme{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px; 
+        margin-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding: 20px 20px;
+        display: flex;
+        
+    }
+    #fotocesme{
+        margin-left: 400px;
+        margin-top: -200px;
+        display: flex;
+    }
+    .mekankordon{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px; 
+        margin-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding: 20px 20px;
+        display: flex;
+    }
+    #fotokordon{
+        margin-left: 400px;
+        margin-top: -200px;
+        display: flex;
+    }
+    .boşluk{
+        background-color: #c93e3e;
+    }
+    .mekanurla{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px; 
+        margin-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding: 20px 20px;
+        display: flex;
+    }
+    #fotourla{
+        margin-left: 400px;
+        margin-top: -230px;
+        display: flex;
+    }
+    .mekansaatkulesi{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px; 
+        margin-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding: 20px 20px;
+        display: flex;
+    }
+    #fotosaatkulesi{
+        margin-left: 400px;
+        margin-top: -230px;
+        display: flex;
+    }
+    .mekankaraburun{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px; 
+        margin-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding: 20px 20px;
+        display: flex;
+    }
+    #fotokaraburun{
+        margin-left: 400px;
+        margin-top: -230px;
+        display: flex;
+    }
+    .mekanödemiş{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px; 
+        margin-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding: 20px 20px;
+        display: flex;
+    }
+    #fotoödemiş{
+        margin-left: 400px;
+        margin-top: -230px;
+        display: flex;
+    }
+    .mekanbeydağ{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: 40px; 
+        margin-left: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 9%;
+        padding: 20px 20px;
+        display: flex;
+    }
+    #fotobeydağ{
+        margin-left: 400px;
+        margin-top: -300px;
+        display: flex;
+    }
+   .mirasımıza{
+
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: x-large;
+    font-weight: bolder ;
+    display: block;
+    text-decoration: none;
+    padding:12px 16px;
+    color:white;
+    margin-left: 42%;
+    display: flex;
+
+   }
+    .mirasımız{
+
+        background-color: #27ae60;
+    }
+    .carousel-item  a img{
+        margin-left: 0px;
+        border-radius: 3%;
+        height: 500px;
+    }
+   
+    
+ .carousel-item{
+    background-color: #c93e3e;
+ }
+ .logincss{
+    margin-left: 600px;
+    background-color: #125688;
+    border-radius: 20%;
+}

@@ -1,0 +1,122 @@
+
+ .arkaplan{
+    background-color:rgb(190, 189, 189);
+    
+  }
+  
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #d30909;
+    display: flex;
+}
+
+li {
+    float: left;
+    display: flex;
+}
+
+li a {
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+    display: flex;
+}
+
+li a:hover:not(.active) {
+
+    background-color: #111;
+    display: flex;
+}
+
+.active {
+
+    background-color: #f39c12;
+    display: flex;
+}
+.aktif {
+    background-color: #c93e3e;
+    display: flex;
+    }  
+
+    img{
+
+        width: 14%;
+        height: 14%;
+        margin-top: 120px;
+        margin-left: 120px;
+        border-radius: 50%;
+        
+    }
+    .içerik{
+        width: 40%;
+        height: 30%;
+        background-color:rgb(161, 161, 161);
+        margin-top: -250px;
+        margin-left: 450px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border-radius: 7%;
+        padding:23px 20px;
+       
+        
+
+    }
+.sosyal{
+        margin-top: 30px;
+        margin-left: 600px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+
+}
+.hesaplar{
+        margin-top: 20px;
+        margin-left: 605px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: large;
+        color: #c93e3e;
+        font-weight: bolder;
+        display: flex;
+        
+        
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    display: flex;
+   
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+      
+  }
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }  
+ .logincss{
+     margin-left: 600px;
+     background-color: #125688;
+     border-radius: 20%;
+ }

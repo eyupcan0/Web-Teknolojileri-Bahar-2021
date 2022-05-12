@@ -1,0 +1,80 @@
+
+ .arkaplan{
+    background-color:rgb(190, 189, 189);
+  }
+  
+ul {
+    list-style-type: none;
+
+    margin: 0;
+
+    padding: 0;
+
+    overflow: hidden;
+
+    background-color: #d30909;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 14px 16px;
+
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+
+    background-color: #111;
+}
+
+.active {
+
+    background-color: #f39c12;
+}
+.aktif {
+    background-color: #c93e3e;
+    }  
+    .logincss{
+        margin-left: 600px;
+        background-color: #125688;
+        border-radius: 20%;
+    }
+    
+    .movies{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .movies li {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        list-style: none;
+        margin: 10px;
+        padding: 15px;
+        border-radius: 12px;
+        text-align: center;
+        background:#272727;
+    }
+    .movies li img{
+        max-width: 300px;
+        border-radius: 12px;
+    }
+    .movies li h2 {
+        color: #fff;
+        font-size: 1.8em;
+        padding: 15px 10px 0;
+        margin-top: auto;
+        font-family:Arial, Helvetica, sans-serif;
+    }
